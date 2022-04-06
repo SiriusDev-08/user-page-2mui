@@ -6,12 +6,14 @@ import  MenuIcon  from '@mui/icons-material/Face';
 import { useStyles } from './styles'; 
 
 
+
 export const TopMenu = () => {
 
   const styles = useStyles();
+  
 
   return (
-    <AppBar className={styles.appBar}>
+    <AppBar position="fixed" className={styles.appBar}>
       <Toolbar>
         <IconButton
           edge='start'

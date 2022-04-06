@@ -1,35 +1,26 @@
 import {  makeStyles } from "@material-ui/core"; 
 
-export const useStyles = makeStyles ({
-  container: {
+const drawerWidth = 240; 
 
-
-
-
-  },
+export const useStyles = makeStyles(theme => ({
+  
 
   appBar: {
-
-    "@media (min-width: 500px)":{
-      width:"86%",
-      
-    },
-    
-    height:"50px",
-    position: "fixed",
-    bottom: 0,
-    boxSizing:"border-box",
-    marginTop: "445px",
-    padding: "10px 10px 10px 10px",
-    alignItems: "start", 
-    justifyContent:"center",
-     
-    
+    top: 'auto',
+    bottom: '0',
+    width: 'calc(100% - ${drawerWidth}px)', 
+    marginLeft: 'drawerWidth', 
   }, 
+
+  title: {
+    flexGrow: 1,
+    marginLeft: 10, 
+  },
 
   footer: {
-
+    marginLeft: 20, 
+    fontSize: 17, 
   }, 
 
 
-})
+})) 

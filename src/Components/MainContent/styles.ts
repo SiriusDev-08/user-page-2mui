@@ -1,28 +1,23 @@
 import {  makeStyles } from "@material-ui/core"; 
 
-export const useStyles = makeStyles ({
-  container: {
-
-
-
-
-  },
+export const useStyles = makeStyles(theme => ({
+  
+  toolbar: theme.mixins.toolbar, 
 
   fullWidth: {
-
+    width: "100%", 
   }, 
 
-  toolbar : {
-
-  }, 
 
   title: {
-
+    flexGrow:1,
+    padding: theme.spacing(3), 
   }, 
 
   content: {
-    padding: "50px 50px 50px 200px"
+    flexGrow: 1, 
+    padding: theme.spacing(3), 
 
   },
 
-})
+}))

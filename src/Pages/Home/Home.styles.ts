@@ -3,23 +3,7 @@ import { height } from "@material-ui/system";
 
 export const useStyles = makeStyles ({
   container: {
-
-    "@media (min-width: 1000px)":{
-      height: "100%",
-    }  
-
+    display: "flex", 
   },
 
-  header: {
-
-    justifyContent: "center",
-    
-
-  }, 
-
-  footer: {
-    position:"fixed", 
-    bottom: 0, 
-  }
-  
 })

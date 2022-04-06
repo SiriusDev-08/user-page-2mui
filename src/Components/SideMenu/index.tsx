@@ -9,6 +9,7 @@ import { useStyles } from './styles';
 
 export const SideMenu = () => {
 
+  const drawerWidth = 240; 
   const styles = useStyles();
 
   return (

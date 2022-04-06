@@ -13,15 +13,11 @@ export const Home = () => {
   
   return (
     <Box className={styles.container}>
-      <Box className={styles.header}>
-        <TopMenu />
-      </Box>         
+      <TopMenu />
       <SideMenu />  
       <MainContent />
-      <Box className={styles.footer}>
-        <Footer /> 
-      </Box>  
-    </Box>  
+      <Footer /> 
+    </Box> 
      
   );
 };
