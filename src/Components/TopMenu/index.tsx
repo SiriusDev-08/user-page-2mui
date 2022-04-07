@@ -12,7 +12,7 @@ export const TopMenu = () => {
 
   return (
     <AppBar position="fixed" className={styles.appBar}>
-      <Toolbar>
+      <Toolbar >
         <IconButton
           edge='start'
           className={styles.menuButton}
