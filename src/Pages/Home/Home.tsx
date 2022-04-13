@@ -2,7 +2,7 @@ import React from 'react';
 import { Footer } from '../../Components/Footer';
 import { MainContent } from '../../Components/MainContent';
 import { SideMenu } from '../../Components/SideMenu';
-import { TopMenu } from '../../Components/TopMenu';
+/* import { TopMenu } from '../../Components/TopMenu'; */
 import { Box } from '@material-ui/core';
 import { useStyles } from './Home.styles'
 
@@ -13,7 +13,7 @@ export const Home = () => {
   
   return (
     <Box className={styles.container}>
-      <TopMenu />
+      {/* <TopMenu /> */}
       <SideMenu />  
       <MainContent />
       <Footer /> 
