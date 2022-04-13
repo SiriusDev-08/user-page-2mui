@@ -27,13 +27,6 @@ const headersData = [
 ];
 
 
-type AppBarProps = {
-  children:React.ReactNode; 
-}
-
-const AppBar = (props: AppBarProps) => {
-  return <div>{props.children}</div>
-}
 
 export default function TopMenu() {
 
