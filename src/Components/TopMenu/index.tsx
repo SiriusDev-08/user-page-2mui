@@ -36,5 +36,4 @@ export const TopMenu = () => {
   );
 }
 
-/* hora de término 16:45 */
 

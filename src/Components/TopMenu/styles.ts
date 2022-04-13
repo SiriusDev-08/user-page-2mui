@@ -8,6 +8,10 @@ export const useStyles = makeStyles(theme => ({
   appBar: {
     width: `calc(100% - ${drawerWidth}px)`,
     marginLeft: drawerWidth,
+    "@media (width: 600px)":{
+      height: "60px",
+    }
+
   },
 
   menuButton: {
