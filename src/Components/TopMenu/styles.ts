@@ -5,13 +5,6 @@ const drawerWidth = 240;
 export const useStyles = makeStyles(theme => ({
   
 
-  /* appBar: {
-
-    width: 'calc(100% - ${drawerWidth}px)',
-    marginLeft: '${drawerWidth}px', 
-    
-  },  Minha versão, é só por causa das aspas? ' */
-
   appBar: {
     width: `calc(100% - ${drawerWidth}px)`,
     marginLeft: drawerWidth,
